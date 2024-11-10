@@ -7,10 +7,22 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+   
     extend: {
+      screens:{
+        
+        xs: {min: '300px' ,max: '567px' },
+               },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        sans: ["Poppins", "Arial", "sans-serif"]
+      },
+
+      backgroundImage: {
+        banner: "url('/banner.png')",
       },
     },
   },

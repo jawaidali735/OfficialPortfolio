@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 export default function About() {
     const router = useRouter();
     return (
-        <div id="about" className="flex flex-col items-center bg-[#07151f] text-white text-center pt-24 xs:pb-36 pb-28 space-y-4 font-sans xs:text-center">
+        <div id="about" className="flex xs:overflow-x-hidden flex-col items-center bg-[#07151f] text-white text-center pt-24 xs:pb-36 pb-28 space-y-4 font-sans xs:text-center">
             <h1 className="font-bold text-3xl pb-8">About <span className="text-[#00abcf]">Me</span></h1>
             <div className="relative w-[200px] h-[200px] flex justify-center items-center overflow-visible">
             

@@ -49,7 +49,7 @@ const Project = () => {
     ];
   
     return (
-      <div id="project" className="text-white bg-gradient-to-b font-sans from-[#07151f] to-[#134b57]  py-18 xs:px-4 pt-18 pb-14">
+      <div id="project" className="text-white xs:overflow-x-hidden bg-gradient-to-b font-sans from-[#07151f] to-[#134b57]  py-18 xs:px-4 pt-18 pb-14">
         <h1 className="font-bold text-3xl p-8 pt-28  text-center ">My <span className="text-[#00abcf]">Projects</span> </h1>
         <div className="max-w-[1000px] mt-20 mx-auto space-y-16 xs:space-y-24">
             {projects.map((project, index)=>(
@@ -72,12 +72,12 @@ const Project = () => {
                             <a href={project.link} target="_blank" 
   rel="noopener noreferrer"  className="mr-6 hover:underline flex items-center gap-3">View Project <motion.span
     animate={{
-        x: [0, -5, 5, 0], // Left-right movement
+        x: [0, -5, 5, 0],
     }}
     transition={{
-        duration: 1, // Duration of one complete cycle
-        repeat: Infinity, // Repeat infinitely
-        repeatType: "loop", // Type of repetition
+        duration: 1, 
+        repeat: Infinity, 
+        repeatType: "loop", 
     }}
 >
     <FaArrowLeftLong />

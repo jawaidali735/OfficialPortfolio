@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="bg-banner font-sans bg-repeat flex bg-bottom w-full h-screen xs:pt-0 bg-cover text-white"
+      className="bg-banner font-sans bg-repeat flex bg-bottom w-full h-screen xs:pt-0 bg-cover text-white xs:overflow-x-hidden"
     >
       <div className="space-y-0.5 xs:space-y-4 xs:space-x-2 xs:flex xs:flex-col xs:justify-center xs:items-center xs:w-full xs:p-2 w-1/2 pl-32 pt-44 xs:pt-36 xs:text-center">
         <h1 className="font-bold xs:text-[2.6rem] text-[2.6rem]">

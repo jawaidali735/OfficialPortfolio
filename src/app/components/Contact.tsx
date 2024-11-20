@@ -1,6 +1,6 @@
 export default function Contact(){
     return(
-        <div id="contact" className="px-64 bg-gradient-to-t from-[#07151f] to-[#134b57]  space-y-2 text-center font-sans pt-20 pb-12 xs:flex xs:flex-col xs:px-4 ">
+        <div id="contact" className="px-64 xs:overflow-x-hidden bg-gradient-to-t from-[#07151f] to-[#134b57]  space-y-2 text-center font-sans pt-20 pb-12 xs:flex xs:flex-col xs:px-4 ">
             <h1 className="font-bold text-3xl p-8 text-center">Contact <span className="text-[#00abcf]">Me!</span></h1>
             <form  className="space-y-4 xs:space-y-8">
                 

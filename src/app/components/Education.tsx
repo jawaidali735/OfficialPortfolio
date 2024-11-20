@@ -1,7 +1,7 @@
 import { SlCalender } from "react-icons/sl";
 export default function Education() {
   return (
-    <div id="education" className="font-sans bg-[#07151f] text-white pt-20 pb-10 ">
+    <div id="education" className="font-sans xs:overflow-x-hidden bg-[#07151f] text-white pt-20 pb-10 ">
       <h1 className="font-bold text-3xl p-8 text-center text-white">
         My<span className="text-[#00abcf]"> Journey</span>{" "}
       </h1>

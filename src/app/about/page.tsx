@@ -28,7 +28,7 @@ export default function About() {
                 About <span className="text-[#00abcf]">Me</span>
             </h1>
             <div className="relative w-full flex flex-col items-center">
-                {/* Vertical line for larger screens only */}
+              
                 <div
                     className="absolute h-full w-1 bg-[#00abcf] z-0 hidden md:block"
                     style={{ left: "50%", top: "0" }}
@@ -44,12 +44,7 @@ export default function About() {
                         ${index % 2 === 0 ? "md:self-start" : "md:self-end"} md:w-[50%] w-[90%]`}
                         style={{
                             position: "relative",
-                            left:
-                                window.innerWidth >= 768
-                                    ? index % 2 === 0
-                                        ? "-13px" // Left alignment for large screens
-                                        : "17px"  // Right alignment for large screens
-                                    : "0", // Center for small screens
+                            left: index % 2 === 0 ? "-13px" : "17px", 
                         }}
                     >
                         <div className="hover:scale-110 transition-transform duration-300">

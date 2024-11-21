@@ -39,7 +39,7 @@ const Header = () => {
 
       
       <div className="hidden md:flex gap-4 px-4">
-        <div className="text-[#00abcf]">
+        <div className="text-[#00abcf] ">
           <Link href="/">Home</Link>
         </div>
         <div className="hover:text-[#00abcf]">
